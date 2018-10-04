@@ -21,6 +21,7 @@ public class FilaInterface {
         fila.add(2);
         fila.add(3);
         fila.add(4);
+        fila.add(4);
         
         System.out.println(fila.toString());
         fila.remove();
