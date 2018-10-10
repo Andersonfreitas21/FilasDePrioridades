@@ -32,7 +32,5 @@ public class FilaInterface {
         System.out.println(fila.toString());
         fila.remove();
         System.out.println(fila.toString());
-        
-        
     }
 }
