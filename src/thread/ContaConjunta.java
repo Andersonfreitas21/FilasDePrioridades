@@ -26,12 +26,12 @@ public class ContaConjunta {
             System.out.println(cliente + " vai sacar .");
             System.out.println(cliente + " esperando .");
             try {
-                Thread.sleep(3000);
+                Thread.sleep(1000);
             } catch (InterruptedException ex) {
                 Logger.getLogger(ContaConjunta.class.getName()).log(Level.SEVERE, null, ex);
             }
             saldo -= valor;
-            String msg = cliente + "sacou " + valor + "[Saldo anterior = " + saldoOriginal + ", Saldo final = " + saldo + "]";
+            String msg = cliente + " sacou " + valor + "[Saldo anterior = " + saldoOriginal + ", Saldo final = " + saldo + "]";
             System.out.println(msg);
             
         } else {
